@@ -1,13 +1,13 @@
-package com.example.myapplication.view
+package com.example.androidCleanArchitecture.view
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
-import com.example.myapplication.R
-import com.example.myapplication.di.m.component.DaggerAppComponent
-import com.example.myapplication.viewmodel.GitHubRepoViewModel
-import com.example.myapplication.viewmodel.GitHubRepoViewModelFactory
+import com.example.androidCleanArchitecture.R
+import com.example.androidCleanArchitecture.di.m.component.DaggerAppComponent
+import com.example.androidCleanArchitecture.viewmodel.GitHubRepoViewModel
+import com.example.androidCleanArchitecture.viewmodel.GitHubRepoViewModelFactory
 import javax.inject.Inject
 
 class GitHubRepoListActivity : AppCompatActivity() {

@@ -1,6 +1,6 @@
-package com.example.myapplication.api
+package com.example.androidCleanArchitecture.api
 
-import com.example.myapplication.model.Response
+import com.example.androidCleanArchitecture.model.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 

@@ -1,6 +1,6 @@
-package com.example.myapplication.di.m.modules
+package com.example.androidCleanArchitecture.di.m.modules
 
-import com.example.myapplication.api.GithubApi
+import com.example.androidCleanArchitecture.api.GithubApi
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
 import dagger.Module
 import dagger.Provides

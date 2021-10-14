@@ -1,7 +1,7 @@
-package com.example.myapplication.usecase
+package com.example.androidCleanArchitecture.usecase
 
-import com.example.myapplication.model.Item
-import com.example.myapplication.repository.GitHubRepoRepository
+import com.example.androidCleanArchitecture.model.Item
+import com.example.androidCleanArchitecture.repository.GitHubRepoRepository
 import javax.inject.Inject
 
 interface GitHubRepoUseCase {

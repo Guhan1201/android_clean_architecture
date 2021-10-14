@@ -1,7 +1,7 @@
-package com.example.myapplication.repository
+package com.example.androidCleanArchitecture.repository
 
-import com.example.myapplication.api.GithubApi
-import com.example.myapplication.model.Item
+import com.example.androidCleanArchitecture.api.GithubApi
+import com.example.androidCleanArchitecture.model.Item
 import javax.inject.Inject
 
 interface GitHubRepoRepository {

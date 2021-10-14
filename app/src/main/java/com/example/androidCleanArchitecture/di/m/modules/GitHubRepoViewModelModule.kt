@@ -1,7 +1,7 @@
-package com.example.myapplication.di.m.modules
+package com.example.androidCleanArchitecture.di.m.modules
 
-import com.example.myapplication.usecase.GitHubRepoUseCase
-import com.example.myapplication.viewmodel.GitHubRepoViewModelFactory
+import com.example.androidCleanArchitecture.usecase.GitHubRepoUseCase
+import com.example.androidCleanArchitecture.viewmodel.GitHubRepoViewModelFactory
 import dagger.Module
 import dagger.Provides
 

@@ -1,9 +1,9 @@
-package com.example.myapplication.viewmodel
+package com.example.androidCleanArchitecture.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.*
-import com.example.myapplication.model.Item
-import com.example.myapplication.usecase.GitHubRepoUseCase
+import com.example.androidCleanArchitecture.model.Item
+import com.example.androidCleanArchitecture.usecase.GitHubRepoUseCase
 import kotlinx.coroutines.launch
 
 class GitHubRepoViewModel constructor(val gitHubRepoUseCase: GitHubRepoUseCase) :

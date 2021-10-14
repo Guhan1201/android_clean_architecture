@@ -1,4 +1,4 @@
-package com.example.myapplication.model
+package com.example.androidCleanArchitecture.model
 
 data class Response(
     val incomplete_results: Boolean,
