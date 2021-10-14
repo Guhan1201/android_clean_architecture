@@ -24,11 +24,14 @@ class NetworkModule {
             .build()
     }
 
+
+
     @Singleton
     @Provides
     fun provideMovieApi(retrofit: Retrofit): GithubApi {
         return retrofit.create(GithubApi::class.java)
     }
+
 
     private fun getHTTPInterceptor(): OkHttpClient {
         val interceptor = HttpLoggingInterceptor()
